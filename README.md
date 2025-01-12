@@ -3,38 +3,40 @@
 
 ### Files Structure
 
-    lib/
-    ---- config/
-    ---- ---- development.js
-    ---- ---- index.js
-    ---- ---- production.js
-    ---- core/
-    ---- ---- init.js
-    ---- entities/
-    ---- ---- user/
-    ---- ---- ---- schema.js
-    ---- ---- ---- service.js
-    ---- modules/
-    ---- ---- assist.js
-    ---- ---- errorHandler.js
-    ---- ---- logs.js
-    ---- ---- middlewares.js
-    ---- ---- tokenGenerator.js
-    ---- routes/
-    ---- ---- signal/
-    ---- ---- ---- route.js
-    ---- ---- ---- service.js
-    ---- ---- ---- validation.js
-    ---- ---- user/
-    ---- ---- ---- route.js
-    ---- ---- ---- service.js
-    ---- ---- ---- validation.js
-    ---- ---- index.js
-    .gitignore
-    index.js
-    package.json
-    README.md
-    sample.env
+```
+lib/
+---- config/
+---- ---- development.js
+---- ---- index.js
+---- ---- production.js
+---- core/
+---- ---- init.js
+---- entities/
+---- ---- user/
+---- ---- ---- schema.js
+---- ---- ---- service.js
+---- modules/
+---- ---- assist.js
+---- ---- errorHandler.js
+---- ---- logs.js
+---- ---- middlewares.js
+---- ---- tokenGenerator.js
+---- routes/
+---- ---- signal/
+---- ---- ---- route.js
+---- ---- ---- service.js
+---- ---- ---- validation.js
+---- ---- user/
+---- ---- ---- route.js
+---- ---- ---- service.js
+---- ---- ---- validation.js
+---- ---- index.js
+.gitignore
+index.js
+package.json
+README.md
+sample.env
+```
 
 ### Run Project
 1. clone the project
