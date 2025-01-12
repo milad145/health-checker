@@ -6,3 +6,5 @@
 .DS_Store
 /lib/data/ssl/
 /test.js
+/codetree.txt
+/lib/data/codetree.config.json
