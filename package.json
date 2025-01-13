@@ -16,6 +16,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "amqplib": "^0.10.5",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.12",
     "dotenv": "^16.4.7",
