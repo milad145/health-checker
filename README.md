@@ -9,8 +9,8 @@ lib/
 ---- ---- development.js
 ---- ---- index.js
 ---- ---- production.js
----- core/
----- ---- init.js
+---- data/
+---- ---- collector.js
 ---- entities/
 ---- ---- user/
 ---- ---- ---- schema.js
@@ -31,8 +31,12 @@ lib/
 ---- ---- ---- service.js
 ---- ---- ---- validation.js
 ---- ---- index.js
+---- services/
+---- ---- rabbitMQ.js
+---- ---- redis.js
+---- init.js
 .gitignore
-index.js
+app.js
 package.json
 README.md
 sample.env
@@ -42,13 +46,13 @@ sample.env
 1. clone the project
 
 ```
-git clone https://sc.spinn.ai/server/fesharino.git
+git clone https://github.com/milad145/health-checker.git
 ```
 
 2. go to the project directory
 
 ```
-cd fesharino
+cd health-checker
 ```
 
 3. install all the dependencies
@@ -70,6 +74,9 @@ DB_CONFIG : mongodb connection url
 ACCESS_TOKEN_SECRET : secret string for creating access token 
 REFRESH_TOKEN_SECRET : secret string for creating refresh token
 PORT : the port which app listen on it
+RABBITMQ_URL : rabbit-mq connection url
+REDIS_HOST : redis connection url
+REDIS_PASSWORD : redis password for connection
 ```
 
 6. run the project with this command
