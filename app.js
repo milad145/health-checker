@@ -5,7 +5,7 @@ import {initLogs, initSecurityLog, APP_LOG} from './lib/modules/logs.js';
 initLogs(APP_LOG);
 initSecurityLog();
 // ===============================================
-import initServer from './lib/core/init.js';
+import initServer from './lib/init.js';
 
 mongoose.set("strictQuery", false);
 
