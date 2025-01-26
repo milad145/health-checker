@@ -1,5 +1,6 @@
 # Fesharino
 
+A sample Node.js application developed by : Express.js, Mongoose, Redis, RabbitMQ that authorized with JWT.
 
 ### Files Structure
 
