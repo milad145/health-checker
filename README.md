@@ -14,7 +14,7 @@ lib/
 ---- ---- collector.js
 ---- entities/
 ---- ---- user/
----- ---- ---- schema.js
+---- ---- ---- user.js
 ---- ---- ---- service.js
 ---- modules/
 ---- ---- assist.js
