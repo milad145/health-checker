@@ -4,5 +4,5 @@
 /logs/
 .DS_Store
 /codetree.txt
-/lib/data/codetree.config.json
-/lib/config/ssl/*
+/lib/data/ssl/*
+/codetree/
