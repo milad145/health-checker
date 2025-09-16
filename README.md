@@ -1,4 +1,4 @@
-# Fesharino
+# Health Checker
 
 A sample Node.js application developed by : Express.js, Mongoose, Redis, RabbitMQ that authorized with JWT.
 
@@ -12,15 +12,19 @@ lib/
 ---- ---- production.js
 ---- data/
 ---- ---- collector.js
----- entities/
----- ---- user/
+---- database/
+---- ---- models/
 ---- ---- ---- user.js
----- ---- ---- service.js
+---- ---- index.js
+---- ---- query.js
+---- middlewares/
+---- ---- authentication.js
+---- ---- common.js
+---- ---- errorHandler.js
 ---- modules/
 ---- ---- assist.js
 ---- ---- errorHandler.js
 ---- ---- logs.js
----- ---- middlewares.js
 ---- ---- tokenGenerator.js
 ---- routes/
 ---- ---- signal/
@@ -35,6 +39,7 @@ lib/
 ---- services/
 ---- ---- rabbitMQ.js
 ---- ---- redis.js
+---- ---- sms.js
 ---- init.js
 .gitignore
 app.js
